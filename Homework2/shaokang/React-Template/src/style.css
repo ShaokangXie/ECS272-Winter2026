@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+#main-container{
+  height: 100vh;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.chart-container{
+  height: 100%;
+}
+
